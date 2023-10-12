@@ -1,0 +1,125 @@
+body {
+    background-image: url("../imagenes/fondo.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #cc3333;
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+.boton {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #cc3333;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 0;
+    outline: 2px solid #cc3333;
+    outline-offset: 4px;
+    cursor: pointer;
+    font-size: 24px; 
+    width: 200px;
+    height: 200px;
+}
+
+.boton:hover {
+    background-color: #aa2b2b;
+}
+
+.contador {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px;
+    display: table;
+    margin: auto;
+}
+
+ul.cards-discos {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.card h2 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #cc3333;
+    padding: 10px 0;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #FFFFFF;
+}
+
+.card ul {
+    border-top: 1px dashed #e15d11;
+    list-style: none;
+    color: #FFFFFF;  
+    margin: 10px 0;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+    background-color: #333333;
+    padding: 10px;
+}
+
+.segundos {
+    background-color: #aa2b2b;
+    color: #FFFFFF;
+}
+
+.card ul li.destacada {
+    background-color: yellow;
+    color: black;
+}
+
+footer h6 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 5px 0;
+}

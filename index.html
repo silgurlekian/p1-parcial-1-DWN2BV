@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Colección de discos</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Colección de discos</h1>
+    </header>
+
+    <div class="contenedor">
+        <main>
+            <button class="boton" onclick="cargarDisco()">Cargar nuevo disco</button>
+            <button class="boton" onclick="mostrarDiscos()">Mostrar Discos</button>
+
+            <button class="boton" onclick="buscarDiscoPorCodigo()">Buscar disco por código</button>
+
+        </main>
+
+        <p class="contador">Total de discos cargados: <span id="contador-discos">0</span></p>
+
+        <ul class="cards-discos" id="lista-discos"></ul>
+    </div>
+
+    <footer>
+        <h6>Alumna: Silvana Gurlekian</h6>
+        <h6>Programación 1 - [DWN2BV]</h6>
+    </footer>
+</body>
+
+</html>
