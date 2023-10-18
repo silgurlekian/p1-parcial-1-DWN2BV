@@ -90,7 +90,7 @@ function cargarDisco() {
     }
     html += `</ul><p><strong>Duración total:</strong> ${this.duracionTotal} segundos</p></div>`;
     infoDiscos.innerHTML += html;
-  }
+  };
 
   // Agregar el disco al array de discos
   coleccionDiscos.push(disco);
